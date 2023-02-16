@@ -41,6 +41,6 @@ public class Document {
     }
 
     public void clear() {
-        this.texte = "Aie ! C'est le bug";
+        this.texte = "";
     }
 }
