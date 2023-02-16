@@ -35,4 +35,8 @@ public class Document {
         String changement = this.texte.substring(start, end);
         remplacer(start, end, changement);
     }
+
+    public void effacer(int start, int end) {
+        remplacer(start, end, "");
+    }
 }
