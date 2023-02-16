@@ -20,11 +20,8 @@ public class CommandeFactory {
         switch (name) {
             case "ajouter" : return new CommandeAjouter(document, parameters);
             case "remplacer" : return new CommandeRemplacer(document, parameters);
-<<<<<<< HEAD
             case "majuscule" : return new CommandeMajuscule(document, parameters);
-=======
-            case "majuscule" : return new CommandeRemplacer(document, parameters);
->>>>>>> 890c3d1 (ajout methode majuscule dans Document)
+            case "effacer" : return new CommandeEffacer(document, parameters);
             default: return null;
         }
     }
